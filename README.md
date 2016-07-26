@@ -3,13 +3,13 @@
 ### Problem
 NASA wishes to analyse areas of the Sun for thermal activity. Their sensors provide raw data which can visualised as a *n* by *n* grid of raw heat measurements that represent the Sun's surface, i.e.
 
-| - | 0 | 1 | 2 | 3 | 4 |
-| - | - | - | - | - | - |
-| 0 | 5 | 3 | 1 | 2 | 0 |
-| 1 | 4 | 1 | 1 | 3 | 2 |
-| 2 | 2 | 3 | 2 | 4 | 3 |
-| 3 | 0 | 2 | 3 | 3 | 2 |
-| 4 | 1 | 0 | 2 | 4 | 3 |
+|     | `0` | `1` | `2` | `3` | `4` |
+| --- | --- | --- | --- | --- | --- |
+| `0` |  5  |  3  |  1  |  2  |  0  |
+| `1` |  4  |  1  |  1  |  3  |  2  |
+| `2` |  2  |  3  |  2  |  4  |  3  |
+| `3` |  0  |  2  |  3  |  3  |  2  |
+| `4` |  1  |  0  |  2  |  4  |  3  |
 
 In the raw data the range of measurements will always range from 0 (low heat) to 5 (high heat).  
 This data needs to be analysed to find likely areas of increased solar activity. The analysis consists of generating an Solar Activity Score for each location on the grid. The score is determined by adding the location's own raw heat value to its surrounding raw heat values. For instance,  the score of location (1,1) is as follows:
