@@ -3,7 +3,7 @@
 ### Problem
 NASA wishes to analyse areas of the Sun for thermal activity. Their sensors provide raw data which can visualised as a *n* by *n* grid of raw heat measurements that represent the Sun's surface, i.e.
 
-|       | 0 | 1 | 2 | 3 | 4 |
+|   -   | 0 | 1 | 2 | 3 | 4 |
 |   -   | - | - | - | - | - |
 | **0** | 5 | 3 | 1 | 2 | 0 |
 | **1** | 4 | 1 | 1 | 3 | 2 |
@@ -25,9 +25,9 @@ The required output of the analysis is to provide an ordered list of locations c
 ### Input and Output
 The input provided to the analyser will be in the form of a list of numbers:
 
-| t | `n` | grid |   |   |   |   |   |   |   |   |
-| - | - |   -  | - | - | - | - | - | - | - | - |
-| 1 | `3` | 4    | 2 | 3 | 2 | 2 | 1 | 3 | 2 | 1 |
+t `n` Grid  
+1 `3` 4 2 3 2 2 1 3 2 1
+
 
 Where t is the number of results requested, n is the size of the grid and grid is a space delimited list of numbers that form the grid, starting with row 0.
 
