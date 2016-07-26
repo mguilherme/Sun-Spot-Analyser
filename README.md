@@ -46,13 +46,13 @@ i.e. the result that should be returned for the above input is:
 
 ### Test data
 
-##### Test 1  
+##### Test 1
 Input:  
 *1 5 5 3 1 2 0 4 1 1 3 2 2 3 2 4 3 0 2 3 3 2 1 0 2 4 3*  
 Expected output:  
 *(3,3 score:26)*
 
-##### Test 2  
+##### Test 2
 Input:  
 *3 4 2 3 2 1 4 4 2 0 3 4 1 1 2 3 4 4*   
 Expected output:  
