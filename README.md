@@ -1,4 +1,4 @@
-# Sun Spot Analyser
+# Sun Spot Analyser [![Build Status](https://travis-ci.org/mguilherme/Sun-Spot-Analyser.svg?branch=master)](https://travis-ci.org/mguilherme/Sun-Spot-Analyser)
 
 ### Problem
 NASA wishes to analyse areas of the Sun for thermal activity. Their sensors provide raw data which can visualised as a *n* by *n* grid of raw heat measurements that represent the Sun's surface, i.e.
